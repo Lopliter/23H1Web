@@ -1,0 +1,11 @@
+header{
+    margin: auto;
+    width: 80%;
+    padding: 10px 0;
+}
+header #Logo{
+    height: 30px;
+}
+header li{
+    display: inline-block;
+}
