@@ -6,3 +6,22 @@ body{
     color: #6c757d;
     background: inherit;
 }
+#left{
+    float: left;
+    display: flex;
+    margin-right: 10px;
+    padding: 5px;
+    background: #1a1d20;
+}
+#left li{
+    list-style: none;
+    color: #00ccff;
+    line-height: 2rem;
+}
+@media screen and (max-width: 768px){
+    #left{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
