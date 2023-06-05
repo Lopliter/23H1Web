@@ -6,12 +6,17 @@ body{
     color: #6c757d;
     background: inherit;
 }
+main{
+    margin-top: 99px;
+    transition: all 0.5s;
+}
 #left{
     float: left;
     display: flex;
     margin-right: 10px;
-    padding: 5px;
+    padding: 15px 20px 5px 0px;
     background: #1a1d20;
+    width: auto;
 }
 #left li{
     list-style: none;
@@ -23,5 +28,9 @@ body{
         display: block;
         float: none;
         width: 100%;
+    }
+    main{
+        margin-top:120px;
+
     }
 }
