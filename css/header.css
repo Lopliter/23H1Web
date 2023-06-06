@@ -10,7 +10,7 @@ header{
     z-index: 100;
 }
 header #Logo{
-    height: 30px;
+    height: 35px;
     margin-top: 5px;
     transition: all 0.5s;
 }
@@ -24,7 +24,7 @@ header li{
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
-    margin: 10px 30px 0 0;
+    margin: 10px 25px 0 0;
     color: #f5f5f5;
 }
 header li img{
@@ -50,6 +50,11 @@ a{
     header li img{
         height: 30px;
         margin: 0 40px 10px;
+        transition: all 0.5s;
+    }
+    header #Logo{
+        height: 30px;
+        margin-top: 5px;
         transition: all 0.5s;
     }
 }
