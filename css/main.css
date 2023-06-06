@@ -23,6 +23,39 @@ main{
     color: #00ccff;
     line-height: 2rem;
 }
+#index1{
+    text-align: center;
+    background: #0f9bb8;
+}
+#index1 img{
+    width: 300px;
+    margin: 10px;
+}
+#index1 h1{
+    margin-top: 200px;
+    color:white;
+}
+#index1 p{
+    color:white;
+    font-size: 20px;
+}
+#index_links{
+    text-align: center;
+}
+#index_links img{
+    filter: brightness(100);
+    width: 150px;
+    margin: auto;
+}
+#link1{
+    background: #00ab32;
+}
+#link2{
+    background: #00ccff;
+}
+#link3{
+    background: #0077cc;
+}
 @media screen and (max-width: 768px){
     #left{
         display: block;
@@ -31,6 +64,9 @@ main{
     }
     main{
         margin-top:120px;
-
+    }
+    #index1 h1{
+        margin-top: 100px;
+        color:white;
     }
 }
