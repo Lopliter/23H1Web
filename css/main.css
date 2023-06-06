@@ -14,7 +14,7 @@ main{
     float: left;
     display: flex;
     margin-right: 10px;
-    padding: 15px 20px 5px 0px;
+    padding: 15px 20px 5px 0;
     background: #1a1d20;
     width: auto;
 }
@@ -32,7 +32,7 @@ main{
     margin: 10px;
 }
 #index1 h1{
-    margin-top: 200px;
+    margin-top: 230px;
     color:white;
 }
 #index1 p{
@@ -43,9 +43,24 @@ main{
     text-align: center;
 }
 #index_links img{
-    filter: brightness(100);
-    width: 150px;
-    margin: auto;
+    width: 80px;
+    margin-bottom: 10px;
+}
+#index_links img#link1logo{
+    width: 90px;
+}
+#index_links a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#index_links div{
+    padding: 22px 22px 13px 22px;
+    transition: background 0.3s;
+}
+#index_links div:hover{
+    background: #212529;
+    transition: all 0.3s;
 }
 #link1{
     background: #00ab32;
@@ -66,7 +81,22 @@ main{
         margin-top:120px;
     }
     #index1 h1{
-        margin-top: 100px;
+        margin-top: 50px;
         color:white;
+    }
+    #index_links{
+        text-align: left;
+    }
+    #index_links img{
+        margin: auto 30px;
+    }
+    #index_links img#link1logo{
+        margin: auto 19px auto 30px;
+    }
+    #index_links br{
+        display: none;
+    }
+    #index_links a{
+        font-size: 30px;
     }
 }
