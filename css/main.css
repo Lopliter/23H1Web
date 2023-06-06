@@ -29,7 +29,7 @@ main{
 }
 #index1 img{
     width: 300px;
-    margin: 10px;
+    margin: 10px 50px 10px 50px;
 }
 #index1 h1{
     margin-top: 230px;
@@ -38,6 +38,21 @@ main{
 #index1 p{
     color:white;
     font-size: 20px;
+}
+#index2{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#index2 p{
+    margin-top:100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+#index2 img{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #index_links{
     text-align: center;
@@ -98,5 +113,16 @@ main{
     }
     #index_links a{
         font-size: 30px;
+    }
+    #index_links div{
+        padding-top: 15px;
+    }
+    #index2 img{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        width: 300px;
+    }
+    #index2 p{
+        margin-bottom: 0;
     }
 }
