@@ -31,6 +31,10 @@ main{
     width: 300px;
     margin: 10px 50px 10px 50px;
 }
+#index1 img#Arrow{
+    width: 32px;
+    margin: auto;
+}
 #index1 h1{
     margin-top: 230px;
     color:white;
@@ -85,6 +89,17 @@ main{
 }
 #link3{
     background: #0077cc;
+}
+#index3{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: #f5f5f5;
+    background-color: #212529;
+}
+#index3 h1{
+    padding-top: 6px;
+    font-size: 25px;
 }
 @media screen and (max-width: 768px){
     #left{
