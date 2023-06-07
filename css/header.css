@@ -33,9 +33,13 @@ header li img{
     margin-bottom: 5px;
     padding: 2px;
 }
-a{
+header a{
     color: #f5f5f5;
     text-decoration: none;
+}
+header a:hover{
+    color: #a4a4a4;
+    text-decoration: underline #a4a4a4 solid 2px;
 }
 @media screen and (max-width: 768px){
     header ul{

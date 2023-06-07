@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+#content{
+    margin-top: 99px;
+    transition: all 0.5s;
+    height: fit-content;
+}
 body{
     color: #6c757d;
     background: inherit;
@@ -16,12 +21,17 @@ main{
     margin-right: 10px;
     padding: 15px 20px 5px 0;
     background: #1a1d20;
-    width: auto;
+    width: 340px;
+    height: 100%;
 }
 #left li{
     list-style: none;
     color: #00ccff;
     line-height: 2rem;
+}
+#right{
+    height: 100%;
+    margin: 0;
 }
 #index1{
     text-align: center;
@@ -91,13 +101,12 @@ main{
     background: #0077cc;
 }
 @media screen and (max-width: 768px){
-    #left{
-        display: block;
-        float: none;
-        width: 100%;
-    }
     main{
         margin-top:120px;
+    }
+    #content{
+        margin-top:120px;
+        transition: all 0.5s;
     }
     #index1 h1{
         margin-top: 50px;
@@ -125,5 +134,12 @@ main{
         margin-top: 30px;
         margin-bottom: 60px;
         width: 300px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #left{
+        display: block;
+        float: none;
+        width: 100%;
     }
 }
