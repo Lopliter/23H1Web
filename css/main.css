@@ -6,6 +6,8 @@
     margin-top: 99px;
     transition: all 0.5s;
     height: fit-content;
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
 body{
     color: #6c757d;
@@ -21,13 +23,16 @@ main{
     margin-right: 30px;
     padding: 15px 20px 5px 0;
     background: #1a1d20;
-    width: 340px;
+    width: 240px;
     height: 100%;
 }
 #left li{
     list-style: none;
     color: #00ccff;
     line-height: 2rem;
+}
+#left ul{
+    position: fixed;
 }
 #right{
     height: 100%;
@@ -142,5 +147,11 @@ main{
         display: block;
         float: none;
         width: 100%;
+    }
+    #content{
+        display: inherit;
+    }
+    #left ul{
+        position: inherit;
     }
 }
