@@ -27,12 +27,24 @@ main{
     height: 100%;
 }
 #left li{
+    display: block;
+    zoom: 1;
+    z-index: 10;
+    cursor: pointer;
     list-style: none;
     color: #00ccff;
     line-height: 2rem;
 }
+#left .f-hover{
+    color: red;
+    font-weight: bold;
+}
 #left ul{
+    display: block;
+    overflow: hidden;
     position: fixed;
+    color: #00ccff;
+    z-index: 999;
 }
 #right{
     height: 100%;
@@ -155,4 +167,12 @@ main{
 }
 @media screen and (max-width: 1000px){
 
+}
+.anchor-element{
+    position: relative;
+    top:-99px;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
 }
