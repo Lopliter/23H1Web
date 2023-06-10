@@ -136,13 +136,11 @@ main{
     #index_links div{
         padding-top: 15px;
     }
-    #index2 img{
+    #index2 img {
         margin-top: 30px;
         margin-bottom: 60px;
         width: 300px;
     }
-}
-@media screen and (max-width: 1000px){
     #left{
         display: block;
         float: none;
@@ -154,4 +152,7 @@ main{
     #left ul{
         position: inherit;
     }
+}
+@media screen and (max-width: 1000px){
+
 }
