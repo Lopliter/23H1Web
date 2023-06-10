@@ -23,7 +23,7 @@ main{
     margin-right: 30px;
     padding: 15px 20px 5px 0;
     background: #1a1d20;
-    width: 240px;
+    width: 260px;
     height: 100%;
 }
 #left li{
@@ -32,19 +32,32 @@ main{
     z-index: 10;
     cursor: pointer;
     list-style: none;
-    color: #00ccff;
-    line-height: 2rem;
+    padding: 10px 5px;
+    background: inherit;
 }
 #left .f-hover{
-    color: red;
     font-weight: bold;
+    color:white;
 }
 #left ul{
+    width: 250px;
     display: block;
     overflow: hidden;
     position: fixed;
-    color: #00ccff;
-    z-index: 999;
+    z-index: 10;
+}
+.anchor-element{
+    position: relative;
+    top:-99px;
+    visibility: hidden;
+}
+#left a{
+    color: inherit;
+    text-decoration: none;
+}
+#left li:hover{
+    transition: all 0.1s;
+    color:white;
 }
 #right{
     height: 100%;
@@ -118,6 +131,9 @@ main{
 #link3{
     background: #0077cc;
 }
+.side_nav{
+    padding-left: 12px;
+}
 @media screen and (max-width: 768px){
     main{
         margin-top:120px;
@@ -163,16 +179,6 @@ main{
     }
     #left ul{
         position: inherit;
+        width: 100%;
     }
-}
-@media screen and (max-width: 1000px){
-
-}
-.anchor-element{
-    position: relative;
-    top:-99px;
-    visibility: hidden;
-}
-a{
-    text-decoration: none;
 }

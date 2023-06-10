@@ -17,19 +17,27 @@
                 for(i=0;i<forSize;i++){
                     var plateTop = $(".side_nav_scroll").eq(i).offset().top;
                     if(scrollTop+120>=plateTop){
-                        $(".side_nav li").eq(i).addClass("f-hover").siblings("li").removeClass("f-hover");
+                        $(".side_nav a").eq(i).addClass("f-hover").siblings("a").removeClass("f-hover");
                     }
                 }
             })
         })
     </script>
+    <style>
+        #left ul{
+            color: #00ab32;
+        }
+        #left li:hover{
+            background: #00ab32;
+        }
+    </style>
 </head>
 <body>
 <header>
     <div class="row">
         <div class="col-md-3">
             <div class="logo">
-                <a href="index.html"><img src="./img/logo_#00ab32.svg" id="Logo" alt="Windows Phone"></a>
+                <a href="index.html"><img src="./img/logo_00ab32.svg" id="Logo" alt="Windows Phone"></a>
             </div>
         </div>
         <div class="col-md-9">
@@ -50,13 +58,13 @@
         <div id="left">
             <nav>
                 <ul class="side_nav">
-                    <li class="f-hover"><a href="#i1">概览</a></li>
-                    <li class=""><a href="#i2">Windows Mobile 2003</a></li>
-                    <li class=""><a href="#i3">Windows Mobile 2003 SE</a></li>
-                    <li class=""><a href="#i4">Windows Mobile 5</a></li>
-                    <li class=""><a href="#i5">Windows Mobile 6</a></li>
-                    <li class=""><a href="#i6">Windows Mobile 6.1</a></li>
-                    <li class=""><a href="#i7">Windows Mobile 6.5</a></li>
+                    <a href="#i1" class="f-hover"><li>概览</li></a>
+                    <a href="#i2" class=""><li>Windows Mobile 2003</li></a>
+                    <a href="#i3" class=""><li>Windows Mobile 2003 SE</li></a>
+                    <a href="#i4" class=""><li>Windows Mobile 5</li></a>
+                    <a href="#i5" class=""><li>Windows Mobile 6</li></a>
+                    <a href="#i6" class=""><li>Windows Mobile 6.1</li></a>
+                    <a href="#i7" class=""><li>Windows Mobile 6.5</li></a>
                 </ul>
             </nav>
         </div>
