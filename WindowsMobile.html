@@ -9,20 +9,7 @@
     <link rel="stylesheet" href="css/content.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            $(window).scroll(function(){
-                var scrollTop = $(window).scrollTop();
-                var forSize = $(".side_nav_scroll").length;
-                for(i=0;i<forSize;i++){
-                    var plateTop = $(".side_nav_scroll").eq(i).offset().top;
-                    if(scrollTop+120>=plateTop){
-                        $(".side_nav a").eq(i).addClass("f-hover").siblings("a").removeClass("f-hover");
-                    }
-                }
-            })
-        })
-    </script>
+    <script src="js/left.js"></script>
     <style>
         #left ul{
             color: #00ab32;
