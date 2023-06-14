@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    color-scheme: dark light;
+}
 #content{
     margin-top: 99px;
     transition: all 0.5s;
